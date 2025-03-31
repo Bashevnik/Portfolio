@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/СSS_Contacts/contacts.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container_start">
+          <a href="Home.html" class="logo-link">
+            <img
+              src="CSS/CSS_Home/Adobe Express - file.png"
+              alt="Логотип AB"
+              class="logo"
+            />
+          </a>
+        </div>
+        <div class="container_end">
+          <nav class="nav">
+            <ul>
+              <li>
+                <button
+                  onclick="window.location.href='Home.html'"
+                  style="letter-spacing: 1.1px"
+                >
+                  Home
+                </button>
+              </li>
+              <li>
+                <button
+                  onclick="window.location.href='About_Me.html'"
+                  style="letter-spacing: 1.1px"
+                >
+                  About me
+                </button>
+              </li>
+              <li>
+                <button
+                  onclick="window.location.href='Projects.html'"
+                  style="letter-spacing: 1.1px"
+                >
+                  Projects
+                </button>
+              </li>
+              <li>
+                <button
+                  onclick="window.location.href='Contacts.html'"
+                  style="letter-spacing: 1.1px"
+                >
+                  Contacts
+                </button>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="burger-menu">
+          <div class="bar"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+       </div>
+       <div class="mobile-menu">
+           <button onclick="window.location.href='Home.html'">Home</button>
+           <button onclick="window.location.href='About_Me.html'">About Me</button>
+           <button onclick="window.location.href='Projects.html'" style="letter-spacing: 1.1px;"> Projects</button>
+           <button onclick="window.location.href='Contacts.html'">Contacts</button>
+       </div>
+      </div>
+  
+    <section id="contacts" class="fullscreen">
+        <div class="content-wrapper">
+          <h2>Contact Me</h2>
+          <p>Ready to help with your project! Write to me or order a service on Fiverr.</p>
+
+            <form action="https://formspree.io/f/xdkegagl" method="POST" class="minimal-contact-form">
+              <input type="text" name="name" placeholder="Your name" required>
+              <input type="email" name="email" placeholder="Your email" required>
+              <textarea name="message" placeholder="Message..." required></textarea>
+              <button type="submit" class="button">Send</button>
+          </form>
+
+          <div class="social-links">
+            <a href="https://www.fiverr.com/alexbashevnik" class="button fiverr-button">Order on Fiverr</a>
+            <a href="https://t.me/AlexBashevnik" class="button telegram-button">My Telegram</a>
+            <a href="https://github.com/Bashevnik" class="button github-button">My GitHub</a>
+        </div>
+    
+<a href="https://www.fiverr.com/alexbashevnik" class="button fiverr-button_big">Order on Fiverr</a>  
+
+</div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="JS/JS_Contacts/contacts.js"></script>
+</body>
+</html>
